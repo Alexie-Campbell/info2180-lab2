@@ -1,0 +1,95 @@
+.avatar img{
+    border-radius: 50%;
+}
+
+div section{
+    clear: both;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2D3748;
+}
+
+.header{
+    grid-column: 1/6;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+.bio h1{
+    display: flex;
+    justify-content: center;
+}
+.bio p{
+    display: flex;
+    justify-content: center;
+}
+
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    grid-column: 1/4;
+}
+.main h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+.main section{
+    color: #718096;
+}
+
+.aside{
+    grid-column: 5/6;
+}
+
+.footer{
+    grid-column: 1/6;
+    grid-row: 5;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+
+.article {
+    float: left;
+}
+.article img{
+    float: right; 
+    padding: 5px; 
+}
+.article2 {
+    float: right;   
+}
+.article2 img{
+    float: left;
+    padding: 5px; 
+    padding-right:25px;
+}
+.links{
+    color: #4299E1;
+}
+.links h3{
+    color: #48BB78;
+    font-family: 'Times New Roman', Times, serif;
+}
+.About{
+    background-color: #E2E8F0;
+    padding: 50px;
+}
+.About h3{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
